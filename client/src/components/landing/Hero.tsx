@@ -22,7 +22,6 @@ export default function HeroSection() {
       easing: "ease-out-cubic",
     });
 
- 
     // Rows And Columns Calculation for Blinking Boxes 
     const generateBoxes = () => {
       const cols = Math.floor(window.innerWidth / 62);
@@ -77,7 +76,7 @@ export default function HeroSection() {
       </div>
 
       <div className="relative z-20 w-full max-w-5xl px-4 sm:px-6 flex-1 flex flex-col items-center justify-center">
-        
+      
         {/* Availability Badge */}
         <div 
           className="mb-6 flex justify-center md:mt-0"
